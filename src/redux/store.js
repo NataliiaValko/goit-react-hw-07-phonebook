@@ -7,7 +7,7 @@ import {
   REGISTER,
   REHYDRATE,
 } from 'redux-persist';
-import contactsReducer from './contacts/contacts-reducer';
+import contactsReducer from 'redux/contacts/contacts-reducer';
 
 const store = configureStore({
   reducer: contactsReducer,
